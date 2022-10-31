@@ -11,7 +11,7 @@ from termcolor import colored
 #COLOURED CORRECT ANSWER:
 wans= colored("⭐️Correct Answer⭐️!", "green", attrs=['reverse'])
 
-NUM_QUESTIONS_PER_QUIZ = 9
+NUM_QUESTIONS_PER_QUIZ = 10
 QUESTIONS_PATH = pathlib.Path(__file__).parent / "questions.toml"
 
 #FUNCTION THAT RUNS THE ENTIRE QUIZ
